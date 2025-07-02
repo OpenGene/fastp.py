@@ -1,7 +1,7 @@
 # Python scripts to process files within a folder in parallel
 
 # fastp.py
-A python script to use fastp/fastplong to preprocess all FASTQ files within a folder. It will automatically couple the paired-end FASTQ files.
+A python script to use [fastp](https://github.com/OpenGene/fastp) or [fastplong](https://github.com/OpenGene/fastplong) to preprocess all FASTQ files within a folder. It will automatically couple the paired-end FASTQ files.
 
 ## example
 ```shell
