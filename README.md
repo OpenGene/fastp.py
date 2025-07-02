@@ -5,12 +5,14 @@ A python script to use fastp/fastplong to preprocess all FASTQ files within a fo
 
 ## example
 ```shell
-# process all the FASTQ data in the folder
-# using fastp in PATH
-# with arguments -f 3 and -t 3, which means trimming 3bp in head and 2bp in tail
-# output all clean data and reports to another folder
 python fastp.py -i /path/to/input/folder -o /path/to/output/folder -a '-f 3 -t 2'
 ```
+which means to
+. process all the FASTQ data in the folder
+. using fastp in PATH
+. with arguments -f 3 and -t 3, which means trimming 3bp in head and 2bp in tail
+. output all clean data and reports to another folder
+
 ## options
 ```shell
 Options:
